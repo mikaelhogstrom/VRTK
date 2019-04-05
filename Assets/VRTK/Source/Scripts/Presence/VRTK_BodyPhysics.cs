@@ -221,6 +221,8 @@ namespace VRTK
         // Set to `true` to view the debug spheres.
         protected bool drawDebugGizmo = false;
 
+        public Rigidbody BodyRigidbody { get => bodyRigidbody;}
+
         /// <summary>
         /// The ArePhysicsEnabled method determines whether the body physics are set to interact with other scene physics objects.
         /// </summary>
